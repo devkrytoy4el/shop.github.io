@@ -87,6 +87,7 @@ body {
     height: 25px;
     width: 25px;
     background-color: white;
+    position: absolute;
 }
 
 .sprite-Livello8:hover {
