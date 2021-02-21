@@ -270,6 +270,7 @@ body {
     text-decoration: none;
     color: #ffffff;
     border-radius: 4px;
+    text-align: center;
 }
 
 .product__filter {
@@ -648,7 +649,7 @@ body {
         font-size: 14px;
     }
     .container {
-        width: 100%;
+        width: 95%;
     }
     .main__content {
         width: 90%;
@@ -704,13 +705,19 @@ body {
     .container {
         width: 95%;
     }
-    .product__element-list {
-        flex-direction: column;
-    }
     .about__content-frame {
         margin: 77px 10px;
     }
     .about__content-desc {
         margin: 0px;
+    }
+}
+
+@media (max-width: 300px) {
+    html {
+        font-size: 12px;
+    }
+    .main__title {
+        font-size: 36px;
     }
 }
