@@ -87,7 +87,6 @@ body {
     height: 25px;
     width: 25px;
     background-color: white;
-    position: absolute;
 }
 
 .sprite-Livello8:hover {
@@ -695,6 +694,12 @@ body {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
+    }
+    .logo__block {
+        position: absolute;
+        left: 55%;
+        left: 53%;
+        top: 8%;
     }
 }
 
