@@ -648,7 +648,7 @@ body {
         font-size: 14px;
     }
     .container {
-        max-width: none;
+        width: 100%;
     }
     .main__content {
         width: 90%;
