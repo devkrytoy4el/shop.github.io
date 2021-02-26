@@ -62,6 +62,8 @@ body {
     align-items: center;
 }
 
+
+
 .nav__list {
     display: flex;
 }
@@ -641,6 +643,10 @@ body {
     .about__content-frame {
         margin: 77px 77px;
     }
+
+    .product__element-item:last-child{
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -699,6 +705,7 @@ body {
         position: absolute;
         left: 53%;
     }
+    
 }
 
 @media (max-width: 480px) {
